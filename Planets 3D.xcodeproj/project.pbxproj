@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C5770C12BECB8DA007AE6C9 /* Planets_3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5770C02BECB8DA007AE6C9 /* Planets_3DApp.swift */; };
+		8C5770C32BECB8DA007AE6C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5770C22BECB8DA007AE6C9 /* ContentView.swift */; };
+		8C5770C52BECB8DC007AE6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770C42BECB8DC007AE6C9 /* Assets.xcassets */; };
+		8C5770C82BECB8DC007AE6C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770C72BECB8DC007AE6C9 /* Preview Assets.xcassets */; };
+		8C5770D22BECB9C4007AE6C9 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770CE2BECB9C4007AE6C9 /* Jupiter.usdz */; };
+		8C5770D32BECB9C4007AE6C9 /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770CF2BECB9C4007AE6C9 /* Mars.usdz */; };
+		8C5770D42BECB9C4007AE6C9 /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770D02BECB9C4007AE6C9 /* Pluto.usdz */; };
+		8C5770D72BECB9DD007AE6C9 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770D62BECB9DC007AE6C9 /* Venus.usdz */; };
+		8C5770DC2BECED6B007AE6C9 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8C5770DB2BECED6B007AE6C9 /* Earth.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C5770BD2BECB8DA007AE6C9 /* Planets 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planets 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5770C02BECB8DA007AE6C9 /* Planets_3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets_3DApp.swift; sourceTree = "<group>"; };
+		8C5770C22BECB8DA007AE6C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C5770C42BECB8DC007AE6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C5770C72BECB8DC007AE6C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C5770CE2BECB9C4007AE6C9 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		8C5770CF2BECB9C4007AE6C9 /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		8C5770D02BECB9C4007AE6C9 /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		8C5770D62BECB9DC007AE6C9 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		8C5770DB2BECED6B007AE6C9 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C5770BA2BECB8DA007AE6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C5770B42BECB8DA007AE6C9 = {
+			isa = PBXGroup;
+			children = (
+				8C5770BF2BECB8DA007AE6C9 /* Planets 3D */,
+				8C5770BE2BECB8DA007AE6C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C5770BE2BECB8DA007AE6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C5770BD2BECB8DA007AE6C9 /* Planets 3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C5770BF2BECB8DA007AE6C9 /* Planets 3D */ = {
+			isa = PBXGroup;
+			children = (
+				8C5770D82BECBA01007AE6C9 /* Objects */,
+				8C5770C02BECB8DA007AE6C9 /* Planets_3DApp.swift */,
+				8C5770C22BECB8DA007AE6C9 /* ContentView.swift */,
+				8C5770C42BECB8DC007AE6C9 /* Assets.xcassets */,
+				8C5770C62BECB8DC007AE6C9 /* Preview Content */,
+			);
+			path = "Planets 3D";
+			sourceTree = "<group>";
+		};
+		8C5770C62BECB8DC007AE6C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C5770C72BECB8DC007AE6C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C5770D82BECBA01007AE6C9 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8C5770DB2BECED6B007AE6C9 /* Earth.usdz */,
+				8C5770CE2BECB9C4007AE6C9 /* Jupiter.usdz */,
+				8C5770CF2BECB9C4007AE6C9 /* Mars.usdz */,
+				8C5770D02BECB9C4007AE6C9 /* Pluto.usdz */,
+				8C5770D62BECB9DC007AE6C9 /* Venus.usdz */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C5770BC2BECB8DA007AE6C9 /* Planets 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5770CB2BECB8DC007AE6C9 /* Build configuration list for PBXNativeTarget "Planets 3D" */;
+			buildPhases = (
+				8C5770B92BECB8DA007AE6C9 /* Sources */,
+				8C5770BA2BECB8DA007AE6C9 /* Frameworks */,
+				8C5770BB2BECB8DA007AE6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planets 3D";
+			productName = "Planets 3D";
+			productReference = 8C5770BD2BECB8DA007AE6C9 /* Planets 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C5770B52BECB8DA007AE6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8C5770BC2BECB8DA007AE6C9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8C5770B82BECB8DA007AE6C9 /* Build configuration list for PBXProject "Planets 3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C5770B42BECB8DA007AE6C9;
+			productRefGroup = 8C5770BE2BECB8DA007AE6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C5770BC2BECB8DA007AE6C9 /* Planets 3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C5770BB2BECB8DA007AE6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5770D72BECB9DD007AE6C9 /* Venus.usdz in Resources */,
+				8C5770D22BECB9C4007AE6C9 /* Jupiter.usdz in Resources */,
+				8C5770D32BECB9C4007AE6C9 /* Mars.usdz in Resources */,
+				8C5770D42BECB9C4007AE6C9 /* Pluto.usdz in Resources */,
+				8C5770C82BECB8DC007AE6C9 /* Preview Assets.xcassets in Resources */,
+				8C5770C52BECB8DC007AE6C9 /* Assets.xcassets in Resources */,
+				8C5770DC2BECED6B007AE6C9 /* Earth.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C5770B92BECB8DA007AE6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5770C32BECB8DA007AE6C9 /* ContentView.swift in Sources */,
+				8C5770C12BECB8DA007AE6C9 /* Planets_3DApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C5770C92BECB8DC007AE6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C5770CA2BECB8DC007AE6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C5770CC2BECB8DC007AE6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planets 3D/Preview Content\"";
+				DEVELOPMENT_TEAM = 5G4JXDUKP2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vanshitajariwala.Planets-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C5770CD2BECB8DC007AE6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planets 3D/Preview Content\"";
+				DEVELOPMENT_TEAM = 5G4JXDUKP2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vanshitajariwala.Planets-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C5770B82BECB8DA007AE6C9 /* Build configuration list for PBXProject "Planets 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5770C92BECB8DC007AE6C9 /* Debug */,
+				8C5770CA2BECB8DC007AE6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5770CB2BECB8DC007AE6C9 /* Build configuration list for PBXNativeTarget "Planets 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5770CC2BECB8DC007AE6C9 /* Debug */,
+				8C5770CD2BECB8DC007AE6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C5770B52BECB8DA007AE6C9 /* Project object */;
+}
